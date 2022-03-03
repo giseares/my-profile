@@ -1,0 +1,91 @@
+h1 {
+	font-family:  'Lato', sans-serif;
+	color: #3E5E81;
+	font-size: 32px;
+	letter-spacing: 3px;
+	font-weight: 700px;
+}
+
+h2 {
+	color: #7ECE90;
+	font-size: 20px;
+}
+
+p {
+	font-size: 17px;
+	color: rgba(0,0,0,0.6);
+	margin-bottom: 30px;
+}
+
+
+a {
+	font-size: 16px;
+	text-decoration: none;
+	color: black;
+	border-radius: 5px;
+	/* padding: 15px 20px; */
+}
+
+
+
+#container {
+	width: 700px;
+	margin:  40px auto;
+
+}
+
+.card-white{
+	background-color: white;
+  box-shadow: 0px 10px 30px lightgrey;
+  text-align: center;
+  padding: 40px;
+  border-radius: 5px;
+  margin: 20px 0;
+}
+
+#introduction a {
+	padding: 15px 20px;
+	border-radius: 4px;	
+	background-color: #6B72E1;
+	color:  white;
+}
+
+
+#introduction a:hover {
+	background-color: blueviolet;
+	transition: 0.3s;
+}
+
+.img-circle{
+	width:  100px;
+	border-radius: 50%;
+}
+
+.inline-list{
+	list-style: none;
+	padding-left: 0px;
+}
+
+.inline-list li{
+	display: inline;
+	padding: 0 10px;
+}
+
+@media (max-width: 960px) {
+  /* Para una pantalla < 960px, se leerá este CSS */
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* Para una pantalla < 720px, se leerá este CSS */
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* Para una pantalla < 540px, se leerá este CSS */
+  .container {
+    width: 300px;
+  }
+}
